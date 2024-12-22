@@ -14,7 +14,7 @@ A simple and user-friendly To-Do List application built with JavaScript. This ap
 - Tasks are displayed below the input field, each with a delete button.
 - Click the delete button to remove a task from the list.
 - Tasks are automatically saved to localStorage and reloaded when the page is revisited.
-- 
+  
 ## 🛠️ Built With  
 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="16" height="16"> React: For building the user interface.
