@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  padding:10px;
+  margin: 0;
+}
+
+.Todo {
+  border: 2px solid;
+  border-radius: 5px;
+  min-height: 92vh;
+  height: auto;
+  color: white;
+  background: url("./assets/forest.jpeg") center no-repeat fixed;
+  background-size: cover;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  text-decoration-line: underline;
+  margin-left: 40px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+label {
+  margin-left: 40px;
+  color: hsl(0, 0%, 22%);
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  margin-left: 40px;
+  margin-top: 2px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  outline: none;
+  width: 50%;
+  line-height: 32px;
+  font-size: 1rem;
+  transition:  box-shadow 0.30s ease-in;
+  box-sizing: border-box; /* Ensure padding and border are included in width and height */
+
+}
+
+
+input[type="text"]:focus {
+  box-shadow:  0 0 0 4px hsl(128, 49%, 29%); /* Simulate border color change with shadow */
+}
+
+button {
+  background-color: hsla(128, 84%, 12%, 0.893);
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.35rem 0.75rem;
+  margin: 0 10px;
+  line-height: 32px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: hsla(126, 46%, 13%, 0.955);
+  color: white;
+}
+
+ul {
+  width: 50%;
+
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(128, 60%, 17%, 0.746);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  position: relative;
+  /* Required for the pseudo-element */
+
+}
+
+li::before {
+  content: "•";
+  /* Use a bullet symbol */
+  color: white;
+  /* Bullet color */
+  font-size: 1.5rem;
+  /* Bullet size */
+  position: absolute;
+  left: -20px;
+  /* Position bullet to the left of the text */
+}
+
+.logo {
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+  background-color: white;
+
+}
+
+.logo:hover {
+  background-color: red;
+}
+
+.logo:active {
+  background-color: hsl(0, 91%, 63%);
+}
+.logo1 {
+    height: 45px;
+    transform: translate(250px, 80px);
+}
