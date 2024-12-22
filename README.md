@@ -7,7 +7,7 @@ A simple and user-friendly To-Do List application built with JavaScript. This ap
 2. Delete Tasks: Remove tasks from the list with a delete button for each item.
 3. Local Storage: Tasks are saved in the browser's localStorage, ensuring persistence even after the page is refreshed or the browser is closed.
 
-## ✨ How It Works
+##  How It Works
 
 - Enter a task in the input field.
 - Click the "Submit" button to add the task to the list.
@@ -17,9 +17,9 @@ A simple and user-friendly To-Do List application built with JavaScript. This ap
 - 
 ## 🛠️ Built With  
 
-- ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) React: For building the user interface.
-- ![CSS](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg) CSS: For styling the calculator.
-- ![Vite](https://vitejs.dev/logo.svg) Vite: For faster development and bundling.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="16" height="16"> React: For building the user interface.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="16" height="16"> CSS: For styling the calculator.
+- <img src="https://vitejs.dev/logo.svg" width="16" height="16"> Vite: For faster development and bundling.
 
 ## Screenshots
 
